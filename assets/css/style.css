@@ -54,6 +54,7 @@ header nav ul li a {
 }
 
 .hero {
+  background-image: url(../images/sis.jpg);
   background-color: rgb(43, 43, 43);
   height: 150px;
   position: relative;
@@ -63,25 +64,58 @@ header nav ul li a {
 .hero-wording {
   color: #70c8fc;
   padding-right: 30px;
-  font-weight: lighter;
+  font-weight: bold;
   position: absolute;
   bottom: 20px;
   right: 10px;
 }
 
-.about-me {
+.container {
+  display: flex;
   height: 300px;
-  background-color: lawngreen;
 }
 
-.examples-of-work{
-  height: 300px;
-  background-color: lightblue;
+.header-text {
+  background-color: #3d3d3d;
+  color: #70c8fc;
+  display: flex;
+  font-weight: bold;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #70c8fc;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
 }
 
-.contact-me{
-  height: 300px;
-  background-color: lightseagreen;
+.text {
+  background-color: #3d3d3d;
+  color: #70c8fc;
+  padding-left: 10px;
+  display: flex;
+  flex: 3;
+  align-items: center;  
 }
 
+.contact {
+  width: 50%;
+  
+}
 
+.contact ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+.contact ul li a {
+  text-decoration: none
+}
+
+.main-container {
+  border-top: 2px solid #70c8fc;
+}
